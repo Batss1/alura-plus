@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+
+    --fonte-conteudo: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.principal {
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    box-sizing: border-box;
+}
+.container__conteudo {
+    width: 36.75em;
+    padding: 10%;
+    gap: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container__titulo {
+    font-family: var(--fonte-conteudo);
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-align: center;
+
+}
+
+.container__botao {
+    display: flex;
+    flex-direction: column;
+    gap: 1em
+    
+}
+
+.container__botao__conteudo{
+    background-color: var(--botao-azul);
+    border-radius: 0.5em;
+    color: var(--branco-principal);
+    text-decoration: none;
+    padding: 1.2em;
+    font-size: 1rem;
+    font-family: var(--fonte-conteudo);
+    font-weight: 400;
+    width: 32em;
+    text-align: center;
+}
+
+.botao__secundario {
+    background-color: transparent;
+    border: 0.125em solid var(--branco-principal)
+}
+
+.container__aviso {
+    text-align: center;
+    font-family: var(--fonte-conteudo);
+    font-size: 0.75rem;
+    color: var(--cinza-secundario);
+    font-weight: 400;
+}
