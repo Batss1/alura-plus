@@ -30,6 +30,7 @@ body {
     height: 90vh;
     box-sizing: border-box;
 }
+
 .container__conteudo {
     width: 36.75em;
     padding: 10%;
@@ -38,7 +39,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .container__titulo {
@@ -46,14 +46,12 @@ body {
     font-weight: 700;
     font-size: 1.75rem;
     text-align: center;
-
 }
 
 .container__botao {
     display: flex;
     flex-direction: column;
     gap: 1em
-    
 }
 
 .container__botao__conteudo{
@@ -90,9 +88,6 @@ body {
     gap: 12em;
 }
 
-
-
-
 .container__descricao {
     display: flex;
     flex-direction: column;
@@ -127,7 +122,7 @@ body {
     text-align: center;
 }
 
-.container__dispositivos {
+.dispositivos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,20 +141,15 @@ body {
     font-weight: 700;
 }
 
-.dispositivos__plataformas {
+.dispositivos__lista {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
 }
 
-.dispositivos__plataformas__conteudo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1em;
-}
 
-.container__rodape {
+.rodape {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,7 +160,6 @@ body {
 
 .rodape__itens {
     display: flex;
-    flex-direction: row;
     list-style: none;
     justify-content: space-evenly;
     font-family: var(--fonte-conteudo);
@@ -179,9 +168,14 @@ body {
     gap: 1em;
 }
 
+.rodape__links a {
+    text-decoration: none;
+    color: var(--branco-principal)
+}
+
 .rodape__direitos {
     font-family: var(--fonte-conteudo);
     font-size: 0.88rem;
     color: var(--cinza-secundario);
-
 }
+
