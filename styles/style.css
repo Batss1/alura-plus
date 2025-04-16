@@ -135,6 +135,7 @@ body {
     font-family: var(--fonte-conteudo);
     font-size: 3rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .dispositivos__subtitulo {
@@ -202,5 +203,22 @@ body {
 
     .container__conteudo {
         margin: 6em 6em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .container__descricao {
+        margin: 0 auto;
+    }
+
+    .secundario__imagem {
+        width: 40vw;
+    }
+
+    .dispositivos__lista {
+        flex-direction: column;;
     }
 }
