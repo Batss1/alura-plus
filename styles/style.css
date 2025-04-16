@@ -179,3 +179,6 @@ body {
     color: var(--cinza-secundario);
 }
 
+.rodape__links a:hover {
+    color: var(--botao-azul);
+}
